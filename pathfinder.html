@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="utf-8">
+    <title>Path Finder</title>
+	<link rel="stylesheet" type="text/css" href="pathfinder.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<h1>A* Pathfinder</h1>
+
+  	<div id="grid">
+    	<canvas id="finder" width="425" height="425">
+    
+    	</canvas>
+  	</div>
+ 	 <div id="buttons">
+    	<button class="click" onclick="solveMaze()">Solve</button>
+    	<button class="click" onclick="reset()">Reset</button>
+  	</div>
+    <p id="outcome">Pink is start, Dark Blue is finish.</p>
+  	<script type="text/javascript" src="pathfinder.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+	padding: 5px 5px 5px 5px;
+    margin: 0;
+    background-color: #CCCCEE;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+#grid {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 2px;
+	padding-top: 2px;
+	width: 430px;
+	height: 430px;
+	margin: auto;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+}
+
+#finder {
+}
+
+#buttons {
+	width: 100%;
+	text-align: center;
+}
+
+.click {
+	border: 0.25px solid #000000;
+	background-color: #FFDAC1;
+	padding: 5px 10px 5px 10px;
+	margin: 5px;
+}
+
+.click:hover {
+	background-color: #FFB7B2;
+}
+
+.click:active {
+	background-color: #FF9AA2;
+}
+
+p {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
